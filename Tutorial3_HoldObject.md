@@ -4,7 +4,7 @@ A tutorial showing how to pick up an object and move it around and dropping it i
 
 ## Setup
 
-This tutorial is a follow on from the previous one `FPSController`, please complete this before progressing with this tutorial.
+This tutorial is a follow on from the previous one [FPSController](https://github.com/ie2990/IsabelElia_CW1/blob/master/Tutorial2_FPSController.md), please complete this before progressing with this tutorial.
 
 Open the `FPSController` scene.
 

@@ -1,6 +1,6 @@
 # FPSController tutorial
 
-This shows how to make simple First Person Shooter controller. This is a follow on from tutorial 1: `MainMenu`. Please complete that first before proceding onto this one.
+This shows how to make simple First Person Shooter controller. This is a follow on from [Tutorial 1](https://github.com/ie2990/IsabelElia_CW1/blob/master/Tutorial1_StartMenu.md). Please complete that first before proceding onto this one.
 
 ## 1. Setting the scene
 

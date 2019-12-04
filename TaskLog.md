@@ -11,6 +11,8 @@ date     | start | end   | break | time taken  | description
 02/11/19 | 11:00 | 12:26 | 00:20 |    01:06    | pick up debug
 05/11/19 | 16:10 | 18:00 | 00:30 |    01:20    | investigated timers
 12/11/19 | 16:00 | 17:35 |       |    01:35    | investigated timers/win conditions
-09/11/19 | 16:00 | 18:00 | 00:40 |    01:20    | timer debug
+24/11/19 | 11:00 | 13:00 | 00:40 |    01:20    | timer debug
+04/12/19 | 15:30 | 18:12 | 02:42 |    01:20    | timer debug and creating github repository and finalising submission
+
 
 

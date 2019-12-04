@@ -36,5 +36,7 @@ Had some problem when implimenting this into my game. Wouldn't seem to work when
 
 Took a lot of playing around but I worked it out by comparing the original project I made to the current one. Realised it was that I had a rigidbody in the bug free version.
 
-## 19/11/19
-Researching a tutorial for a timer. Would like to implement a game over element too. This is the tutorial I'm planning to base mine on: https://www.youtube.com/watch?v=qe8MCWsGthM
+## 12/11/19
+Researching a tutorial for a timer. Would like to implement a game over element too. These are the tutorials I'm planning to base mine on: https://www.youtube.com/watch?v=d7h49NKooKU & https://www.youtube.com/watch?v=o0j7PdU88a4
+
+

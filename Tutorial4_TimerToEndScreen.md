@@ -67,12 +67,35 @@ To do this we need to add in a new variable under the `startingTime` and `curren
 Then in the update, we want to add in:
 
 ```
-timerText.text = currentType.ToString();
+timerText.text = currentTime.ToString();
 ```
-
+This tells Unity to access the text in the Inspector of the chosen object, in this case the `CountdownTxt` and display the `currentTime` value. `ToString()` converts that value to a string so we don't get a compiler error.
 
 ## Changing scenes
 
 When the timer reaches 0, we want to display the `GameOver` scene. To do this we simply need to create an `if` variable that changes scene once the `currentTime` reaches 0.
+
+Add this at the bottom of the `Update()` method:
+
+```
+  if (currentTime <= 0.9)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+```
+Save and Attach the script to Unity.
+
+## Back to Unity
+
+We are now ready to finalise the timer.
+
+Firstly, we must add the `GameOver` scene to our list in the `Build Settings`. To do this simply select `File`>`Build Settings...` and once the window has opened, drag the `GameOver` scene to the bottom of the `Scenes in Build` list.
+
+Then, we want to allocate the `timerText` in the `Timer` script to the `CountdownTxt` object we created. We need to drag the `Text (Script)` component in the `CountdownTxt` Inspector to the empty `Timer Text` slot in the `Timer (Script)` component.
+
+
+
+Now you should have a working timer!
+
 
 

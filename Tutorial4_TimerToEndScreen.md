@@ -67,7 +67,7 @@ To do this we need to add in a new variable under the `startingTime` and `curren
 Then in the update, we want to add in:
 
 ```
-timerText.text = currentTime.ToString();
+timerText.text = currentTime.ToString("0.0");
 ```
 This tells Unity to access the text in the Inspector of the chosen object, in this case the `CountdownTxt` and display the `currentTime` value. `ToString()` converts that value to a string so we don't get a compiler error.
 
